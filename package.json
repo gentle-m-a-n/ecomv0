@@ -1,0 +1,28 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cloudinary": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "slugify": "latest",
+    "stripe": "latest",
+    "util": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
